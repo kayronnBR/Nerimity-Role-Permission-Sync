@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+      body {
+        width: 300px;
+        margin: 0;
+        padding: 14px;
+        background: #232428;
+        color: #f2f3f5;
+        font-size: 13px;
+      }
+      h1 {
+        font-size: 15px;
+        margin: 0 0 6px;
+      }
+      .muted {
+        color: #b5bac1;
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 0 0 10px;
+      }
+      #status {
+        margin: 10px 0 0;
+        min-height: 16px;
+        font-size: 12px;
+        color: #23a55a;
+      }
+      button {
+        width: 100%;
+        padding: 9px;
+        border: 0;
+        border-radius: 6px;
+        background: #3f4147;
+        color: #f2f3f5;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Copy role permissions</h1>
+    <p class="muted" id="help">Click the icon to highlight channels. Choose the source channel, copy the roles, then pick the destinations.</p>
+    <button id="cancel">Cancel assistant</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
