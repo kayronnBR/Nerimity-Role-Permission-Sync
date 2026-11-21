@@ -1,4 +1,4 @@
-# Nerimity – Copy Role Permissions (guided assistant)
+# Nerimity Role Permission Sync
 
 A Chrome MV3 extension. You don't need to understand settings — the assistant appears inside Nerimity itself.
 
